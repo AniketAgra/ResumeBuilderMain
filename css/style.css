@@ -1,0 +1,168 @@
+body{
+    background-image: url(https://wallpaperaccess.com/full/1417846.jpg);
+    background-size: cover;
+}
+#navbar ul{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 60px;
+    width: 96%;
+}
+
+
+#navbar li{
+    float: right;
+    list-style: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    text-align: center;
+}
+#navbar li a{
+    padding: 20px 20px;
+    text-decoration: none;
+    color: rgb(66, 64, 64);;
+    font-family: system-ui;
+    font-weight: 600;
+}
+#navbar li a:hover{
+    font-weight: 800;
+
+}
+#navbar input{
+    float:inline-start;
+    padding: 8px 13px;
+    border-radius: 20px;
+    margin:10px 2px ;
+    width: 100px;
+    position: absolute;
+    margin-left: 30%;   
+    
+}
+#navbar ul img{
+    border-radius: 50%;
+    display: flex;
+    position:absolute;
+    margin-top: 5px;
+    margin-left: 0%;
+}
+#navbar ul h2{
+    position: absolute;
+    padding:5px 0 5px 0;
+    margin:10px;
+    margin-left: 6%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#navbar ul h2:hover{
+    text-shadow: 2px 2px 15px black;
+    font-size: 1.5em;
+}
+#navbar ul li a button{
+    background-color: white;
+    font-weight: 1.4em;
+    border-color: aliceblue;
+    
+}
+#navbar ul li a button:hover{
+    border-radius: 10px 0px 10px 0px;
+    transition-duration: 0.5s;
+    background-color: black;
+    color: aliceblue;
+}
+#bsc{
+    text-decoration: none;
+    color: rgb(194, 135, 48);
+}
+#bsc:hover{
+    font-weight: 900;
+    color: rgb(135, 210, 210);
+}
+#bsc1:hover{
+    height: 120%;
+    width: 110%;
+    border-left:solid rgb(247, 83, 83);
+    z-index: 10;
+}
+#bsc2:hover{
+    height: 120%;
+    width: 110%;
+    border-right:solid red;
+}
+#bsc3:hover{
+    height: 120%;
+    width: 110%;
+    border:solid rgb(16, 15, 15);
+    border-radius: 20px;
+    z-index: 10;
+}
+#im:hover{
+    height: 120%;
+    width: 110%;
+    border:solid rgb(2, 2, 2);
+    border-radius: 20px;
+    z-index: 10;
+}
+.upper{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    
+
+}
+.upper img{
+    border-radius: 20px;
+    width:40px ;
+    height: 40px;
+    
+}
+.upper a{
+    padding: 3px 23px;
+    
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 150px;
+}
+.mid ul{
+    list-style: none;
+    margin-top: 3%;
+
+}
+.list1{
+    margin-left: 2%;
+}
+.list2{
+    margin-left: 4%;
+   
+}
+.list3{
+    margin-left: 4%;
+    
+}
+.mid ul li a{
+    padding: 12px;
+}
+.mid ul li a:hover{
+    color: gray;
+    text-decoration: dashed;
+
+}
+.lower{
+    background-color: black;
+    opacity: 0.9;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+}
